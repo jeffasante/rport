@@ -2,6 +2,8 @@
 
 `rport` is a lightweight, high-performance TCP port forwarding utility written in Rust. It efficiently forwards traffic between ports with minimal overhead, optionally supporting TLS encryption.
 
+![Demo](examples/demo.gif)
+
 ## Features
 
 - **Fast and efficient** port forwarding with minimal latency
@@ -75,6 +77,8 @@ python3 -m http.server 8080
 # Access the web server via the forwarded port
 curl http://127.0.0.1:9309
 ```
+
+![Web Server Demo](examples/webserver-demo.gif)
 
 ### Secure Forwarding with TLS
 
