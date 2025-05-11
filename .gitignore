@@ -1,0 +1,25 @@
+# Ignore the target directory (compiled output)
+target/
+
+# Ignore Cargo.lock if you're creating a library (keep it if it's an app/binary)
+# Cargo.lock
+
+# Ignore temporary files and backups
+**/*.rs.bk
+*.swp
+*.swo
+*~
+
+# Ignore cert and key files if they're sensitive/private
+cert.pem
+key.pem
+
+# Ignore demo files or recordings if they're generated
+*.tape
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore VSCode and other editor-specific folders
+.vscode/
+.idea/

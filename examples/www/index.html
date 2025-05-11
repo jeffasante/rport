@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>rport Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        .success {
+            color: #28a745;
+            font-weight: bold;
+        }
+        pre {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>rport Demo - Web Server Test</h1>
+    <div class="container">
+        <h2>Connection <span class="success">Successful!</span></h2>
+        <p>This web page is being served through the rport TCP forwarding tunnel.</p>
+        <p>Original server port: <strong>8080</strong></p>
+        <p>Forwarded through port: <strong>9309</strong></p>
+    </div>
+    
+    <div class="container">
+        <h3>How it works:</h3>
+        <pre>
+Web Browser → rport (9309) → Target Web Server (8080)
+        </pre>
+        <p>rport is efficiently forwarding all TCP traffic between these ports!</p>
+    </div>
+</body>
+</html>

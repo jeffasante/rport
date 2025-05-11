@@ -1,0 +1,11 @@
+{
+	"start":	{
+		"connected":	[],
+		"version":	"iperf 3.18",
+		"system_info":	"Darwin MACBOOKs-MacBook-Pro-2.local 24.4.0 Darwin Kernel Version 24.4.0: Fri Apr 11 18:32:43 PDT 2025; root:xnu-11417.101.15~117/RELEASE_ARM64_T8103 arm64"
+	},
+	"intervals":	[],
+	"end":	{
+	},
+	"error":	"unable to connect to server - server may have stopped running or use a different port, firewall issue, etc.: Connection refused"
+}

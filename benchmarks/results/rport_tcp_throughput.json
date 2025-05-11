@@ -1,0 +1,36 @@
+{
+	"start":	{
+		"connected":	[],
+		"version":	"iperf 3.18",
+		"system_info":	"Darwin MACBOOKs-MacBook-Pro-2.local 24.4.0 Darwin Kernel Version 24.4.0: Fri Apr 11 18:32:43 PDT 2025; root:xnu-11417.101.15~117/RELEASE_ARM64_T8103 arm64"
+	},
+	"intervals":	[],
+	"end":	{
+		"streams":	[],
+		"sum_sent":	{
+			"start":	0,
+			"end":	0,
+			"seconds":	0,
+			"bytes":	0,
+			"bits_per_second":	0,
+			"sender":	true
+		},
+		"sum_received":	{
+			"start":	0,
+			"end":	0,
+			"seconds":	0,
+			"bytes":	0,
+			"bits_per_second":	0,
+			"sender":	true
+		},
+		"cpu_utilization_percent":	{
+			"host_total":	0.00016325318268211686,
+			"host_user":	4.4231157869539051e-06,
+			"host_system":	0.00015963426976551822,
+			"remote_total":	0,
+			"remote_user":	0,
+			"remote_system":	0
+		}
+	},
+	"error":	"interrupt - the client has terminated"
+}

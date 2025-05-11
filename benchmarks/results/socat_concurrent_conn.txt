@@ -1,0 +1,25 @@
+Testing concurrent connections through socat...
+=== Concurrency: 10 ===
+Completed 10 requests in 0.00 seconds
+Success: 10, Failure: 0
+Success rate: 100.00%
+=== Concurrency: 50 ===
+Completed 50 requests in 0.01 seconds
+Success: 50, Failure: 0
+Success rate: 100.00%
+=== Concurrency: 100 ===
+Completed 100 requests in 0.02 seconds
+Success: 100, Failure: 0
+Success rate: 100.00%
+=== Concurrency: 200 ===
+Completed 200 requests in 0.03 seconds
+Success: 200, Failure: 0
+Success rate: 100.00%
+=== Concurrency: 500 ===
+Completed 500 requests in 0.07 seconds
+Success: 500, Failure: 0
+Success rate: 100.00%
+=== Concurrency: 1000 ===
+Completed 1000 requests in 0.14 seconds
+Success: 1000, Failure: 0
+Success rate: 100.00%
