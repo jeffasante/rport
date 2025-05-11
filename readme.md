@@ -4,6 +4,33 @@
 
 ![Demo](examples/demo.gif)
 
+# What Does rport Do? (In Plain Language)
+
+rport is a simple but powerful tool that redirects internet traffic from one port to another.
+
+## In Everyday Terms
+
+Imagine rport as a traffic officer standing at an intersection. When someone tries to visit a specific address (like 127.0.0.1:9309), rport intercepts them and smoothly redirects them to a different destination (like 127.0.0.1:8080) - all without them noticing any significant delay.
+
+## Real-World Examples
+
+1. **Running Multiple Web Services**: If you have a website already using port 80, but want to run another web service, rport can redirect traffic from a different port to that service.
+
+2. **Testing and Development**: Developers can use rport to make a local development server appear to be running on a standard port.
+
+3. **Simple Security Layer**: With its TLS support, rport can add encryption to connections that would otherwise be unencrypted.
+
+4. **Working Around Firewalls**: In some environments where certain ports are blocked, rport can redirect traffic to allowed ports.
+
+## Why Use rport?
+
+- **It's Fast**: Adds less than 2 milliseconds of delay to connections
+- **It's Efficient**: Uses minimal computer resources (less than 3MB of memory)
+- **It's Simple**: Just one command to set up a redirect
+- **It's Secure**: Optional encryption for sensitive data
+
+In short, rport is a lightweight, efficient tool that redirects network connections from one port to another with minimal delay and resource usage - perfect for developers, system administrators, or anyone who needs to redirect network traffic.
+
 ## Features
 
 - **Fast and efficient** port forwarding with minimal latency
